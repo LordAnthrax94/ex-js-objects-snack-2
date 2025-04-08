@@ -81,6 +81,6 @@ const restaurant = {
 	isOpen: false,
 };
 
-// Il metodo migliore per copiare l'oggetto chef è il json, in quanto non essendoci funzioni nell'oggetto annidato non abbiamo bisogno di riportarle nel nuovo oggetto.
+// Il metodo migliore per copiare l'oggetto chef è attraverso l'utilizzo dello spread operator (...), in quanto è presente una funzione all'interno dell'oggetto.
 
 // Il metodo migliore per copiare l'oggetto restaurant è 'structuredClone', perchè attraverso questo metodo sarà possibile copiare anche le funzioni al suo interno.
